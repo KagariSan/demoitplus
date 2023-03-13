@@ -8,7 +8,7 @@ public class Main {
                 "2. Xoa \n" +
                 "3. Thoat \n" +
                 "Chon: ";
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner("1\n3\n3\n");
         Integer input = 0;
         while ( input != 3) {
             System.out.println(start);
